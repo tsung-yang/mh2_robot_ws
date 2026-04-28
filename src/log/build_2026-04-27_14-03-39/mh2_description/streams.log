@@ -1,0 +1,74 @@
+[0.007s] Invoking command in '/home/tsung/mh2_robot_ws/src/build/mh2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tsung/mh2_robot_ws/src/mh2_description -DCMAKE_INSTALL_PREFIX=/home/tsung/mh2_robot_ws/src/install/mh2_description
+[0.042s] -- The C compiler identification is GNU 13.3.0
+[0.085s] -- The CXX compiler identification is GNU 13.3.0
+[0.105s] -- Detecting C compiler ABI info
+[0.231s] -- Detecting C compiler ABI info - done
+[0.248s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.249s] -- Detecting C compile features
+[0.250s] -- Detecting C compile features - done
+[0.267s] -- Detecting CXX compiler ABI info
+[0.356s] -- Detecting CXX compiler ABI info - done
+[0.362s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.362s] -- Detecting CXX compile features
+[0.362s] -- Detecting CXX compile features - done
+[0.368s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.462s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.578s] -- Configuring done (0.6s)
+[0.579s] -- Generating done (0.0s)
+[0.580s] -- Build files have been written to: /home/tsung/mh2_robot_ws/src/build/mh2_description
+[0.584s] Invoked command in '/home/tsung/mh2_robot_ws/src/build/mh2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tsung/mh2_robot_ws/src/mh2_description -DCMAKE_INSTALL_PREFIX=/home/tsung/mh2_robot_ws/src/install/mh2_description
+[0.585s] Invoking command in '/home/tsung/mh2_robot_ws/src/build/mh2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsung/mh2_robot_ws/src/build/mh2_description -- -j20 -l20
+[0.611s] Invoked command in '/home/tsung/mh2_robot_ws/src/build/mh2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsung/mh2_robot_ws/src/build/mh2_description -- -j20 -l20
+[0.619s] Invoking command in '/home/tsung/mh2_robot_ws/src/build/mh2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tsung/mh2_robot_ws/src/build/mh2_description
+[0.625s] -- Install configuration: ""
+[0.625s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/ament_index/resource_index/package_run_dependencies/mh2_description
+[0.625s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/ament_index/resource_index/parent_prefix_path/mh2_description
+[0.625s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/environment/ament_prefix_path.sh
+[0.625s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/environment/ament_prefix_path.dsv
+[0.625s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/environment/path.sh
+[0.626s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/environment/path.dsv
+[0.626s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/local_setup.bash
+[0.626s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/local_setup.sh
+[0.626s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/local_setup.zsh
+[0.626s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/local_setup.dsv
+[0.626s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/package.dsv
+[0.626s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/ament_index/resource_index/packages/mh2_description
+[0.626s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/cmake/mh2_descriptionConfig.cmake
+[0.626s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/cmake/mh2_descriptionConfig-version.cmake
+[0.626s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/package.xml
+[0.626s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/launch
+[0.626s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/launch/view.launch.py
+[0.626s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes
+[0.626s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_la1.STL
+[0.626s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/body_link.STL
+[0.627s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_ra6.STL
+[0.627s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_ra2.STL
+[0.627s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_la6.STL
+[0.628s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_ra7.STL
+[0.628s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_lf1.STL
+[0.628s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_la4.STL
+[0.628s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_rf0.STL
+[0.629s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_ra5.STL
+[0.629s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_head0.STL
+[0.629s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_ra3.STL
+[0.629s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_ra1.STL
+[0.630s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/right_wheel.STL
+[0.630s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_la5.STL
+[0.630s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_rf1.STL
+[0.630s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_head1.STL
+[0.631s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_camera1.STL
+[0.632s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/base_link.STL
+[0.634s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_lf0.STL
+[0.634s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_la0.STL
+[0.634s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/left_wheel.STL
+[0.634s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_la3.STL
+[0.634s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_la2.STL
+[0.635s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_la7.STL
+[0.635s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_camera0.STL
+[0.635s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_ra4.STL
+[0.635s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/meshes/link_ra0.STL
+[0.635s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/urdf
+[0.636s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/urdf/mh2.urdf
+[0.636s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/rviz
+[0.636s] -- Installing: /home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/rviz/view.rviz
+[0.637s] Invoked command in '/home/tsung/mh2_robot_ws/src/build/mh2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tsung/mh2_robot_ws/src/build/mh2_description

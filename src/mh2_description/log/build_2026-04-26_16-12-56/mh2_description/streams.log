@@ -1,0 +1,66 @@
+[0.007s] Invoking command in '/home/tsung/arm_ws/src/mh2_description/build/mh2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsung/arm_ws/src/mh2_description/build/mh2_description -- -j20 -l20
+[0.008s] /usr/bin/cmake: /home/tsung/miniconda3/envs/mujoco_env/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+[0.013s] /usr/bin/cmake: /home/tsung/miniconda3/envs/mujoco_env/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+[0.019s] /usr/bin/cmake: /home/tsung/miniconda3/envs/mujoco_env/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+[0.024s] /usr/bin/cmake: /home/tsung/miniconda3/envs/mujoco_env/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+[0.029s] Invoked command in '/home/tsung/arm_ws/src/mh2_description/build/mh2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsung/arm_ws/src/mh2_description/build/mh2_description -- -j20 -l20
+[0.035s] Invoking command in '/home/tsung/arm_ws/src/mh2_description/build/mh2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsung/arm_ws/src/mh2_description/build/mh2_description --target install -- -j20 -l20
+[0.037s] /usr/bin/cmake: /home/tsung/miniconda3/envs/mujoco_env/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+[0.046s] /usr/bin/cmake: /home/tsung/miniconda3/envs/mujoco_env/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+[0.056s] /usr/bin/cmake: /home/tsung/miniconda3/envs/mujoco_env/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+[0.075s] /usr/bin/cmake: /home/tsung/miniconda3/envs/mujoco_env/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+[0.081s] /usr/bin/cmake: /home/tsung/miniconda3/envs/mujoco_env/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+[0.086s] [36mInstall the project...[0m
+[0.090s] /usr/bin/cmake: /home/tsung/miniconda3/envs/mujoco_env/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+[0.100s] -- Install configuration: ""
+[0.101s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/ament_index/resource_index/package_run_dependencies/mh2_description
+[0.101s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/ament_index/resource_index/parent_prefix_path/mh2_description
+[0.101s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/environment/ament_prefix_path.sh
+[0.102s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/environment/ament_prefix_path.dsv
+[0.102s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/environment/path.sh
+[0.102s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/environment/path.dsv
+[0.102s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/local_setup.bash
+[0.102s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/local_setup.sh
+[0.102s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/local_setup.zsh
+[0.102s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/local_setup.dsv
+[0.102s] -- Installing: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/package.dsv
+[0.102s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/ament_index/resource_index/packages/mh2_description
+[0.102s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/cmake/mh2_descriptionConfig.cmake
+[0.103s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/cmake/mh2_descriptionConfig-version.cmake
+[0.103s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/package.xml
+[0.103s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/launch
+[0.103s] -- Installing: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/launch/view.launch.py
+[0.103s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes
+[0.103s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_la1.STL
+[0.103s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/body_link.STL
+[0.103s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_ra6.STL
+[0.103s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_ra2.STL
+[0.103s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_la6.STL
+[0.104s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_ra7.STL
+[0.104s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_lf1.STL
+[0.104s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_la4.STL
+[0.104s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_rf0.STL
+[0.104s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_ra5.STL
+[0.104s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_head0.STL
+[0.104s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_ra3.STL
+[0.104s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_ra1.STL
+[0.104s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/right_wheel.STL
+[0.104s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_la5.STL
+[0.104s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_rf1.STL
+[0.104s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_head1.STL
+[0.105s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_camera1.STL
+[0.105s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/base_link.STL
+[0.105s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_lf0.STL
+[0.105s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_la0.STL
+[0.105s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/left_wheel.STL
+[0.105s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_la3.STL
+[0.105s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_la2.STL
+[0.105s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_la7.STL
+[0.105s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_camera0.STL
+[0.105s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_ra4.STL
+[0.105s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/meshes/link_ra0.STL
+[0.106s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/urdf
+[0.106s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/urdf/mh2.urdf
+[0.106s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/rviz
+[0.106s] -- Up-to-date: /home/tsung/arm_ws/src/mh2_description/install/mh2_description/share/mh2_description/rviz/view.rviz
+[0.107s] Invoked command in '/home/tsung/arm_ws/src/mh2_description/build/mh2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsung/arm_ws/src/mh2_description/build/mh2_description --target install -- -j20 -l20

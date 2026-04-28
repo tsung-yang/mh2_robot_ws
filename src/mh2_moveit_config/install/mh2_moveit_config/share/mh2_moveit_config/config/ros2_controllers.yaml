@@ -1,0 +1,90 @@
+# This config file is used by ros2_control
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    arm_left_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    end_effector_left_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    end_effector_right_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    arm_right_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+arm_left_controller:
+  ros__parameters:
+    joints:
+      - joint_la1
+      - joint_la2
+      - joint_la3
+      - joint_la4
+      - joint_la5
+      - joint_la6
+      - joint_la7
+    command_interfaces:
+      - position
+      - velocity
+      - effort
+    state_interfaces:
+      - position
+      - velocity
+      - effort
+    allow_nonzero_velocity_at_trajectory_end: true
+end_effector_left_controller:
+  ros__parameters:
+    joints:
+      - joint_lf0
+      - joint_lf1
+    command_interfaces:
+      - position
+      - velocity
+      - effort
+    state_interfaces:
+      - position
+      - velocity
+      - effort
+    allow_nonzero_velocity_at_trajectory_end: true
+end_effector_right_controller:
+  ros__parameters:
+    joints:
+      - joint_rf0
+      - joint_rf1
+    command_interfaces:
+      - position
+      - velocity
+      - effort
+    state_interfaces:
+      - position
+      - velocity
+      - effort
+    allow_nonzero_velocity_at_trajectory_end: true
+arm_right_controller:
+  ros__parameters:
+    joints:
+      - joint_ra1
+      - joint_ra2
+      - joint_ra3
+      - joint_ra4
+      - joint_ra5
+      - joint_ra6
+      - joint_ra7
+    command_interfaces:
+      - position
+      - velocity
+      - effort
+    state_interfaces:
+      - position
+      - velocity
+      - effort
+    allow_nonzero_velocity_at_trajectory_end: true

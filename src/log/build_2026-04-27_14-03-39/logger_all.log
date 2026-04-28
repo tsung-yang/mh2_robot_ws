@@ -1,0 +1,256 @@
+[0.054s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.054s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7faa822bb350>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7faa823ebf50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7faa823ebf50>>)
+[0.074s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.074s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.074s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.074s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.074s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.074s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.074s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tsung/mh2_robot_ws/src'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_bringup) by extension 'ignore'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_bringup) by extension 'ignore_ament_install'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_bringup) by extensions ['colcon_pkg']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_bringup) by extension 'colcon_pkg'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_bringup) by extensions ['colcon_meta']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_bringup) by extension 'colcon_meta'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_bringup) by extensions ['ros']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_bringup) by extension 'ros'
+[0.088s] DEBUG:colcon.colcon_core.package_identification:Package 'mh2_bringup' with type 'ros.ament_cmake' and name 'mh2_bringup'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_description) by extension 'ignore'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_description) by extension 'ignore_ament_install'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_description) by extensions ['colcon_pkg']
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_description) by extension 'colcon_pkg'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_description) by extensions ['colcon_meta']
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_description) by extension 'colcon_meta'
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_description) by extensions ['ros']
+[0.088s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_description) by extension 'ros'
+[0.089s] DEBUG:colcon.colcon_core.package_identification:Package 'mh2_description' with type 'ros.ament_cmake' and name 'mh2_description'
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_moveit_config) by extension 'ignore'
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_moveit_config) by extension 'ignore_ament_install'
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_moveit_config) by extensions ['colcon_pkg']
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_moveit_config) by extension 'colcon_pkg'
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_moveit_config) by extensions ['colcon_meta']
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_moveit_config) by extension 'colcon_meta'
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_moveit_config) by extensions ['ros']
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(mh2_moveit_config) by extension 'ros'
+[0.089s] DEBUG:colcon.colcon_core.package_identification:Package 'mh2_moveit_config' with type 'ros.ament_cmake' and name 'mh2_moveit_config'
+[0.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.098s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/tsung/arm_ws/install
+[0.098s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/tsung/arm_ws/src/mh2_moveit_config/install
+[0.099s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 512 installed packages in /opt/ros/jazzy
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_bringup' build argument 'cmake_args' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_bringup' build argument 'cmake_target' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.127s] DEBUG:colcon.colcon_core.verb:Building package 'mh2_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tsung/mh2_robot_ws/src/build/mh2_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tsung/mh2_robot_ws/src/install/mh2_bringup', 'merge_install': False, 'path': '/home/tsung/mh2_robot_ws/src/mh2_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_description' build argument 'cmake_args' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_description' build argument 'cmake_target' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.127s] DEBUG:colcon.colcon_core.verb:Building package 'mh2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tsung/mh2_robot_ws/src/build/mh2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tsung/mh2_robot_ws/src/install/mh2_description', 'merge_install': False, 'path': '/home/tsung/mh2_robot_ws/src/mh2_description', 'symlink_install': False, 'test_result_base': None}
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.127s] Level 5:colcon.colcon_core.verb:set package 'mh2_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.127s] DEBUG:colcon.colcon_core.verb:Building package 'mh2_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tsung/mh2_robot_ws/src/build/mh2_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config', 'merge_install': False, 'path': '/home/tsung/mh2_robot_ws/src/mh2_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.127s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.128s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.128s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tsung/mh2_robot_ws/src/mh2_description' with build type 'ament_cmake'
+[0.128s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tsung/mh2_robot_ws/src/mh2_description'
+[0.129s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.129s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.129s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.132s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tsung/mh2_robot_ws/src/mh2_bringup' with build type 'ament_cmake'
+[0.132s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tsung/mh2_robot_ws/src/mh2_bringup'
+[0.132s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.132s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tsung/mh2_robot_ws/src/build/mh2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tsung/mh2_robot_ws/src/mh2_description -DCMAKE_INSTALL_PREFIX=/home/tsung/mh2_robot_ws/src/install/mh2_description
+[0.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tsung/mh2_robot_ws/src/build/mh2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tsung/mh2_robot_ws/src/mh2_bringup -DCMAKE_INSTALL_PREFIX=/home/tsung/mh2_robot_ws/src/install/mh2_bringup
+[0.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tsung/mh2_robot_ws/src/build/mh2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tsung/mh2_robot_ws/src/mh2_description -DCMAKE_INSTALL_PREFIX=/home/tsung/mh2_robot_ws/src/install/mh2_description
+[0.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tsung/mh2_robot_ws/src/build/mh2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsung/mh2_robot_ws/src/build/mh2_description -- -j20 -l20
+[0.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tsung/mh2_robot_ws/src/build/mh2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsung/mh2_robot_ws/src/build/mh2_description -- -j20 -l20
+[0.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tsung/mh2_robot_ws/src/build/mh2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tsung/mh2_robot_ws/src/build/mh2_description
+[0.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tsung/mh2_robot_ws/src/build/mh2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tsung/mh2_robot_ws/src/mh2_bringup -DCMAKE_INSTALL_PREFIX=/home/tsung/mh2_robot_ws/src/install/mh2_bringup
+[0.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tsung/mh2_robot_ws/src/build/mh2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsung/mh2_robot_ws/src/build/mh2_bringup -- -j20 -l20
+[0.765s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mh2_description)
+[0.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tsung/mh2_robot_ws/src/build/mh2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tsung/mh2_robot_ws/src/build/mh2_description
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_description' for CMake module files
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_description' for CMake config files
+[0.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('mh2_description', 'cmake_prefix_path')
+[0.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/hook/cmake_prefix_path.ps1'
+[0.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/hook/cmake_prefix_path.dsv'
+[0.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/hook/cmake_prefix_path.sh'
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_description/bin'
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_description/lib/pkgconfig/mh2_description.pc'
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_description/lib/python3.12/site-packages'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_description/bin'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/package.ps1'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/package.dsv'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/package.sh'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/package.bash'
+[0.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/package.zsh'
+[0.772s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tsung/mh2_robot_ws/src/install/mh2_description/share/colcon-core/packages/mh2_description)
+[0.773s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mh2_description)
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_description' for CMake module files
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_description' for CMake config files
+[0.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('mh2_description', 'cmake_prefix_path')
+[0.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/hook/cmake_prefix_path.ps1'
+[0.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/hook/cmake_prefix_path.dsv'
+[0.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/hook/cmake_prefix_path.sh'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_description/bin'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_description/lib/pkgconfig/mh2_description.pc'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_description/lib/python3.12/site-packages'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_description/bin'
+[0.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/package.ps1'
+[0.775s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/package.dsv'
+[0.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/package.sh'
+[0.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/package.bash'
+[0.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_description/share/mh2_description/package.zsh'
+[0.775s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tsung/mh2_robot_ws/src/install/mh2_description/share/colcon-core/packages/mh2_description)
+[0.776s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tsung/mh2_robot_ws/src/mh2_moveit_config' with build type 'ament_cmake'
+[0.776s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tsung/mh2_robot_ws/src/mh2_moveit_config'
+[0.776s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.776s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tsung/mh2_robot_ws/src/build/mh2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsung/mh2_robot_ws/src/build/mh2_bringup -- -j20 -l20
+[0.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tsung/mh2_robot_ws/src/build/mh2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tsung/mh2_robot_ws/src/build/mh2_bringup
+[0.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tsung/mh2_robot_ws/src/build/mh2_moveit_config': AMENT_PREFIX_PATH=/home/tsung/mh2_robot_ws/src/install/mh2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tsung/mh2_robot_ws/src/install/mh2_description:/home/tsung/arm_ws/src/mh2_moveit_config/install/mh2_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tsung/mh2_robot_ws/src/mh2_moveit_config -DCMAKE_INSTALL_PREFIX=/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config
+[0.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mh2_bringup)
+[0.788s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_bringup' for CMake module files
+[0.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tsung/mh2_robot_ws/src/build/mh2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tsung/mh2_robot_ws/src/build/mh2_bringup
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_bringup' for CMake config files
+[0.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('mh2_bringup', 'cmake_prefix_path')
+[0.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/share/mh2_bringup/hook/cmake_prefix_path.ps1'
+[0.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/share/mh2_bringup/hook/cmake_prefix_path.dsv'
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/share/mh2_bringup/hook/cmake_prefix_path.sh'
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/bin'
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/lib/pkgconfig/mh2_bringup.pc'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/lib/python3.12/site-packages'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/bin'
+[0.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/share/mh2_bringup/package.ps1'
+[0.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/share/mh2_bringup/package.dsv'
+[0.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/share/mh2_bringup/package.sh'
+[0.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/share/mh2_bringup/package.bash'
+[0.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/share/mh2_bringup/package.zsh'
+[0.793s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tsung/mh2_robot_ws/src/install/mh2_bringup/share/colcon-core/packages/mh2_bringup)
+[0.793s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mh2_bringup)
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_bringup' for CMake module files
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_bringup' for CMake config files
+[0.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('mh2_bringup', 'cmake_prefix_path')
+[0.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/share/mh2_bringup/hook/cmake_prefix_path.ps1'
+[0.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/share/mh2_bringup/hook/cmake_prefix_path.dsv'
+[0.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/share/mh2_bringup/hook/cmake_prefix_path.sh'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/bin'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/lib/pkgconfig/mh2_bringup.pc'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/lib/python3.12/site-packages'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/bin'
+[0.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/share/mh2_bringup/package.ps1'
+[0.795s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/share/mh2_bringup/package.dsv'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/share/mh2_bringup/package.sh'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/share/mh2_bringup/package.bash'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_bringup/share/mh2_bringup/package.zsh'
+[0.796s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tsung/mh2_robot_ws/src/install/mh2_bringup/share/colcon-core/packages/mh2_bringup)
+[1.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tsung/mh2_robot_ws/src/build/mh2_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/tsung/mh2_robot_ws/src/install/mh2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tsung/mh2_robot_ws/src/install/mh2_description:/home/tsung/arm_ws/src/mh2_moveit_config/install/mh2_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tsung/mh2_robot_ws/src/mh2_moveit_config -DCMAKE_INSTALL_PREFIX=/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config
+[1.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tsung/mh2_robot_ws/src/build/mh2_moveit_config': AMENT_PREFIX_PATH=/home/tsung/mh2_robot_ws/src/install/mh2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tsung/mh2_robot_ws/src/install/mh2_description:/home/tsung/arm_ws/src/mh2_moveit_config/install/mh2_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsung/mh2_robot_ws/src/build/mh2_moveit_config -- -j20 -l20
+[1.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tsung/mh2_robot_ws/src/build/mh2_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/tsung/mh2_robot_ws/src/install/mh2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tsung/mh2_robot_ws/src/install/mh2_description:/home/tsung/arm_ws/src/mh2_moveit_config/install/mh2_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tsung/mh2_robot_ws/src/build/mh2_moveit_config -- -j20 -l20
+[1.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tsung/mh2_robot_ws/src/build/mh2_moveit_config': AMENT_PREFIX_PATH=/home/tsung/mh2_robot_ws/src/install/mh2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tsung/mh2_robot_ws/src/install/mh2_description:/home/tsung/arm_ws/src/mh2_moveit_config/install/mh2_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tsung/mh2_robot_ws/src/build/mh2_moveit_config
+[1.369s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mh2_moveit_config)
+[1.369s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config' for CMake module files
+[1.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tsung/mh2_robot_ws/src/build/mh2_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/tsung/mh2_robot_ws/src/install/mh2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tsung/mh2_robot_ws/src/install/mh2_description:/home/tsung/arm_ws/src/mh2_moveit_config/install/mh2_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tsung/mh2_robot_ws/src/build/mh2_moveit_config
+[1.369s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config' for CMake config files
+[1.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('mh2_moveit_config', 'cmake_prefix_path')
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/share/mh2_moveit_config/hook/cmake_prefix_path.ps1'
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/share/mh2_moveit_config/hook/cmake_prefix_path.dsv'
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/share/mh2_moveit_config/hook/cmake_prefix_path.sh'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/bin'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/lib/pkgconfig/mh2_moveit_config.pc'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/lib/python3.12/site-packages'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/bin'
+[1.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/share/mh2_moveit_config/package.ps1'
+[1.371s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/share/mh2_moveit_config/package.dsv'
+[1.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/share/mh2_moveit_config/package.sh'
+[1.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/share/mh2_moveit_config/package.bash'
+[1.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/share/mh2_moveit_config/package.zsh'
+[1.371s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/share/colcon-core/packages/mh2_moveit_config)
+[1.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mh2_moveit_config)
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config' for CMake module files
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config' for CMake config files
+[1.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('mh2_moveit_config', 'cmake_prefix_path')
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/share/mh2_moveit_config/hook/cmake_prefix_path.ps1'
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/share/mh2_moveit_config/hook/cmake_prefix_path.dsv'
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/share/mh2_moveit_config/hook/cmake_prefix_path.sh'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/bin'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/lib/pkgconfig/mh2_moveit_config.pc'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/lib/python3.12/site-packages'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/bin'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/share/mh2_moveit_config/package.ps1'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/share/mh2_moveit_config/package.dsv'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/share/mh2_moveit_config/package.sh'
+[1.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/share/mh2_moveit_config/package.bash'
+[1.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/share/mh2_moveit_config/package.zsh'
+[1.374s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tsung/mh2_robot_ws/src/install/mh2_moveit_config/share/colcon-core/packages/mh2_moveit_config)
+[1.374s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.374s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.374s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.374s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.378s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.379s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.379s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.389s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.389s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tsung/mh2_robot_ws/src/install/local_setup.ps1'
+[1.389s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tsung/mh2_robot_ws/src/install/_local_setup_util_ps1.py'
+[1.390s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tsung/mh2_robot_ws/src/install/setup.ps1'
+[1.390s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tsung/mh2_robot_ws/src/install/local_setup.sh'
+[1.391s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tsung/mh2_robot_ws/src/install/_local_setup_util_sh.py'
+[1.391s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tsung/mh2_robot_ws/src/install/setup.sh'
+[1.391s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tsung/mh2_robot_ws/src/install/local_setup.bash'
+[1.391s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tsung/mh2_robot_ws/src/install/setup.bash'
+[1.392s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tsung/mh2_robot_ws/src/install/local_setup.zsh'
+[1.392s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tsung/mh2_robot_ws/src/install/setup.zsh'

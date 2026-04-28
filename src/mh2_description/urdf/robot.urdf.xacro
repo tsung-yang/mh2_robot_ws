@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot_urdf">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import with_head_urdf urdf file -->
+    <xacro:include filename="$(find mh2_description)/urdf/mh2.urdf" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="robot_urdf.ros2_control.xacro" />
+
+
+</robot>

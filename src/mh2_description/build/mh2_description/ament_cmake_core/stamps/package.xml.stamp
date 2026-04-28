@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>mh2_description</name>
+  <version>0.0.1</version>
+  <description>Description package of mh2_description robot</description>
+
+  <maintainer email="taozhi@dreame.tech">Zhi Tao</maintainer>
+
+  <license>Default</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
