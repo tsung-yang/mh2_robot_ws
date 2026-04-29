@@ -10,6 +10,7 @@ moveit_simple_controller_manager:
   arm_left_controller:
     type: FollowJointTrajectory
     joints:
+      - joint_la0
       - joint_la1
       - joint_la2
       - joint_la3
@@ -17,12 +18,10 @@ moveit_simple_controller_manager:
       - joint_la5
       - joint_la6
       - joint_la7
-      - joint_la0
-    action_ns: follow_joint_trajectory
-    default: true
   arm_right_controller:
     type: FollowJointTrajectory
     joints:
+      - joint_ra0
       - joint_ra1
       - joint_ra2
       - joint_ra3
@@ -30,6 +29,3 @@ moveit_simple_controller_manager:
       - joint_ra5
       - joint_ra6
       - joint_ra7
-      - joint_ra0
-    action_ns: follow_joint_trajectory
-    default: true

@@ -17,6 +17,7 @@ controller_manager:
 arm_left_controller:
   ros__parameters:
     joints:
+      - joint_la0
       - joint_la1
       - joint_la2
       - joint_la3
@@ -24,7 +25,6 @@ arm_left_controller:
       - joint_la5
       - joint_la6
       - joint_la7
-      - joint_la0
     command_interfaces:
       - position
       - velocity
@@ -35,6 +35,7 @@ arm_left_controller:
 arm_right_controller:
   ros__parameters:
     joints:
+      - joint_ra0
       - joint_ra1
       - joint_ra2
       - joint_ra3
@@ -42,7 +43,6 @@ arm_right_controller:
       - joint_ra5
       - joint_ra6
       - joint_ra7
-      - joint_ra0
     command_interfaces:
       - position
       - velocity
