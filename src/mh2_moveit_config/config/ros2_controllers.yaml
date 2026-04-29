@@ -28,9 +28,11 @@ arm_left_controller:
     command_interfaces:
       - position
       - velocity
+      - effort
     state_interfaces:
       - position
       - velocity
+      - effort
     allow_nonzero_velocity_at_trajectory_end: true
 arm_right_controller:
   ros__parameters:
@@ -46,7 +48,9 @@ arm_right_controller:
     command_interfaces:
       - position
       - velocity
+      - effort
     state_interfaces:
       - position
       - velocity
+      - effort
     allow_nonzero_velocity_at_trajectory_end: true
