@@ -1,5 +1,5 @@
 #include <rclcpp/rclcpp.hpp>
-#include <moveit/move_group_interface/move_group_interface.hpp>
+#include <moveit/move_group_interface/move_group_interface.h>
 #include <trajectory_msgs/msg/joint_trajectory.hpp>
 #include <std_srvs/srv/trigger.hpp>
 #include <thread>
@@ -78,7 +78,7 @@ private:
         bool success = (arm->plan(plan) == moveit::core::MoveItErrorCode::SUCCESS);
         if (success)
         {
-            if (!plan.trajectory.joint_trajectory.points.empty())
+            if (!plan.trajectory_.joint_trajectory.points.empty())
             {
                 // 同步执行，阻塞直到运动完成
                 bool exec_success = (arm->execute(plan) == moveit::core::MoveItErrorCode::SUCCESS);
