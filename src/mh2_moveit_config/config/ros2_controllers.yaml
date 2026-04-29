@@ -24,6 +24,7 @@ arm_left_controller:
       - joint_la5
       - joint_la6
       - joint_la7
+      - joint_la0
     command_interfaces:
       - position
       - velocity
@@ -41,6 +42,7 @@ arm_right_controller:
       - joint_ra5
       - joint_ra6
       - joint_ra7
+      - joint_ra0
     command_interfaces:
       - position
       - velocity

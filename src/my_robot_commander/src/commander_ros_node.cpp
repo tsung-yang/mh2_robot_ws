@@ -34,11 +34,11 @@ public:
 
     void goToNamedTarget(const std::string& group_name, const std::string& target_name)
     {
-        // 统一使用 arm_left / arm_right
         if (group_name == "arm_left")
         {
             left_arm_->setStartStateToCurrentState();
             left_arm_->setNamedTarget(target_name);
+
             planAndPublish(left_arm_, left_arm_traj_pub_, target_name);
         }
         else if (group_name == "arm_right")
@@ -78,11 +78,14 @@ private:
         bool success = (arm->plan(plan) == moveit::core::MoveItErrorCode::SUCCESS);
         if (success)
         {
-            // 正确访问 plan.trajectory
             if (!plan.trajectory.joint_trajectory.points.empty())
             {
-                pub->publish(plan.trajectory.joint_trajectory);
-                RCLCPP_INFO(node_->get_logger(), "Trajectory for '%s' published.", target_name.c_str());
+                // 同步执行，阻塞直到运动完成
+                bool exec_success = (arm->execute(plan) == moveit::core::MoveItErrorCode::SUCCESS);
+                if (exec_success)
+                    RCLCPP_INFO(node_->get_logger(), "Trajectory for '%s' executed.", target_name.c_str());
+                else
+                    RCLCPP_ERROR(node_->get_logger(), "Execution failed for '%s'.", target_name.c_str());
             }
             else
             {
@@ -93,6 +96,7 @@ private:
         {
             RCLCPP_ERROR(node_->get_logger(), "Planning failed for target '%s'.", target_name.c_str());
         }
+
     }
 
     // 服务回调函数：触发左手打招呼动作

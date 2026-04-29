@@ -8,93 +8,83 @@ default_acceleration_scaling_factor: 0.1
 # Specific joint properties can be changed with the keys [max_position, min_position, max_velocity, max_acceleration]
 # Joint limits can be turned off with [has_velocity_limits, has_acceleration_limits]
 joint_limits:
+  joint_la0:
+    has_velocity_limits: false
+    max_velocity: 0
+    has_acceleration_limits: false
+    max_acceleration: 0
   joint_la1:
-    has_velocity_limits: true
-    max_velocity: 0.8
-    has_acceleration_limits: true
-    max_acceleration: 1.0
+    has_velocity_limits: false
+    max_velocity: 0
+    has_acceleration_limits: false
+    max_acceleration: 0
   joint_la2:
-    has_velocity_limits: true
-    max_velocity: 0.8
-    has_acceleration_limits: true
-    max_acceleration: 1.0
+    has_velocity_limits: false
+    max_velocity: 0
+    has_acceleration_limits: false
+    max_acceleration: 0
   joint_la3:
-    has_velocity_limits: true
-    max_velocity: 0.8
-    has_acceleration_limits: true
-    max_acceleration: 1.0
+    has_velocity_limits: false
+    max_velocity: 0
+    has_acceleration_limits: false
+    max_acceleration: 0
   joint_la4:
-    has_velocity_limits: true
-    max_velocity: 0.8
-    has_acceleration_limits: true
-    max_acceleration: 1.0
+    has_velocity_limits: false
+    max_velocity: 0
+    has_acceleration_limits: false
+    max_acceleration: 0
   joint_la5:
-    has_velocity_limits: true
-    max_velocity: 0.8
-    has_acceleration_limits: true
-    max_acceleration: 1.0
+    has_velocity_limits: false
+    max_velocity: 0
+    has_acceleration_limits: false
+    max_acceleration: 0
   joint_la6:
-    has_velocity_limits: true
-    max_velocity: 0.8
-    has_acceleration_limits: true
-    max_acceleration: 1.0
+    has_velocity_limits: false
+    max_velocity: 0
+    has_acceleration_limits: false
+    max_acceleration: 0
   joint_la7:
-    has_velocity_limits: true
-    max_velocity: 0.8
-    has_acceleration_limits: true
-    max_acceleration: 1.0
-  joint_lf0:
-    has_velocity_limits: true
-    max_velocity: 0.8
-    has_acceleration_limits: true
-    max_acceleration: 1.0
-  joint_lf1:
-    has_velocity_limits: true
-    max_velocity: 0.8
-    has_acceleration_limits: true
-    max_acceleration: 1.0
+    has_velocity_limits: false
+    max_velocity: 0
+    has_acceleration_limits: false
+    max_acceleration: 0
+  joint_ra0:
+    has_velocity_limits: false
+    max_velocity: 0
+    has_acceleration_limits: false
+    max_acceleration: 0
   joint_ra1:
-    has_velocity_limits: true
-    max_velocity: 0.8
-    has_acceleration_limits: true
-    max_acceleration: 1.0
+    has_velocity_limits: false
+    max_velocity: 0
+    has_acceleration_limits: false
+    max_acceleration: 0
   joint_ra2:
-    has_velocity_limits: true
-    max_velocity: 0.8
-    has_acceleration_limits: true
-    max_acceleration: 1.0
+    has_velocity_limits: false
+    max_velocity: 0
+    has_acceleration_limits: false
+    max_acceleration: 0
   joint_ra3:
-    has_velocity_limits: true
-    max_velocity: 0.8
-    has_acceleration_limits: true
-    max_acceleration: 1.0
+    has_velocity_limits: false
+    max_velocity: 0
+    has_acceleration_limits: false
+    max_acceleration: 0
   joint_ra4:
-    has_velocity_limits: true
-    max_velocity: 0.8
-    has_acceleration_limits: true
-    max_acceleration: 1.0
+    has_velocity_limits: false
+    max_velocity: 0
+    has_acceleration_limits: false
+    max_acceleration: 0
   joint_ra5:
-    has_velocity_limits: true
-    max_velocity: 0.8
-    has_acceleration_limits: true
-    max_acceleration: 1.0
+    has_velocity_limits: false
+    max_velocity: 0
+    has_acceleration_limits: false
+    max_acceleration: 0
   joint_ra6:
-    has_velocity_limits: true
-    max_velocity: 0.8
-    has_acceleration_limits: true
-    max_acceleration: 1.0
+    has_velocity_limits: false
+    max_velocity: 0
+    has_acceleration_limits: false
+    max_acceleration: 0
   joint_ra7:
-    has_velocity_limits: true
-    max_velocity: 0.8
-    has_acceleration_limits: true
-    max_acceleration: 1.0
-  joint_rf0:
-    has_velocity_limits: true
-    max_velocity: 0.8
-    has_acceleration_limits: true
-    max_acceleration: 1.0
-  joint_rf1:
-    has_velocity_limits: true
-    max_velocity: 0.8
-    has_acceleration_limits: true
-    max_acceleration: 1.0
+    has_velocity_limits: false
+    max_velocity: 0
+    has_acceleration_limits: false
+    max_acceleration: 0

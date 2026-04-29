@@ -1,6 +1,7 @@
 # Default initial positions for robot_urdf's ros2_control fake system
 
 initial_positions:
+  joint_la0: 0
   joint_la1: 0
   joint_la2: 0
   joint_la3: 0
@@ -8,6 +9,7 @@ initial_positions:
   joint_la5: 0
   joint_la6: 0
   joint_la7: 0
+  joint_ra0: 0
   joint_ra1: 0
   joint_ra2: 0
   joint_ra3: 0
