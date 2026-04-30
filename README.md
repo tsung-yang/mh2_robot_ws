@@ -1,0 +1,3 @@
+# 使用ros2 launch moveit_setup_assistant setup_assistant.launch.py开启moveit2的配置文件编辑用改辅助工具直接编辑已有的mh2_moveit_config即可进行相应的编辑
+# 在进行部署规划时，需要先加载urdf模型使其发布robot_description的话题，可启动mh2_bringup文件夹下的 ros2_control.launch.py
+# 在真机上部署时需要修改在mh2_description的urdf文件将缺失的未发布的关节设置为fixed，同时真机上已经发布了joint_state和机械臂的控制器，需要在ros2_control.launch.py注释相应的部分避免冲突无法启动。
